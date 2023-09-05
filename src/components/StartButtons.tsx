@@ -1,60 +1,15 @@
-//button.tsx
+//StartButton.tsx
 
-import React from 'react'
-import './StartButtons.css'
+import React from "react";
+import './StartButtons.css';
 
-//"PLAY" Button
-export function PlayButton() {
-    const handleClick = () => {
-        console.log("BALLS");
-    }
-
-    return (
-        <button onClick={handleClick}>PLAY</button>
-    );
+interface IButtonProps { 
+    text: string;
+    onClickHandler: () => void;
 }
 
-//"HOW TO PLAY" Button
-export function HowToButton() {
-    const handleClick = () => {
-        console.log("BALLS");
-    }
-
+export const Button = ({ text, onClickHandler } : IButtonProps) => {
     return (
-        <button onClick={handleClick}>HOW TO PLAY</button>
+        <button className="button" onClick={onClickHandler}>{text}</button>
     );
-}
-
-//"LEADERBOARD" Button
-export function LeaderboardButton() {
-    const handleClick = () => {
-        //logic for handleClick
-    }
-
-    return (
-        <button onClick={handleClick}>LEADERBOARD</button>
-    );
-}
-
-//"SETTINGS" Button
-export function SettingsButton() {
-    const handleClick = () => {
-        //logic for handleClick
-    }
-
-    return (
-        <button onClick={handleClick}>SETTINGS</button>
-    );
-}
-
-//"ABOUT" Button
-export function AboutButton() {
-    const handleClick = () => {
-        //logic for handleClick
-    }
-
-    return (
-        <button onClick={handleClick}>ABOUT</button>
-    );
-
 }

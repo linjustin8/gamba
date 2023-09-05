@@ -1,3 +1,5 @@
+/*App.css*/
+
 body {
     display: flex;
     justify-content: center;
@@ -8,10 +10,7 @@ body {
 
 .btn_container {
     display: flex;
-    font-size: 30px;
     flex-direction: column;
-    position: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
 }

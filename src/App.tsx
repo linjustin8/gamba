@@ -2,16 +2,25 @@
 
 import React from 'react';
 import './App.css'
-import {PlayButton, HowToButton,LeaderboardButton, SettingsButton, AboutButton} from './components/StartButtons'
+import {Button} from './components/StartButtons'
+
+
+
+
 
 function App() {
+
+    const clickPlay = () => {
+        console.log("balls");
+    }
+
     return (
     <div className="btn_container">
-        <PlayButton />
-        <HowToButton />
-        <LeaderboardButton />
-        <SettingsButton />
-        <AboutButton />
+        <Button text="PLAY" onClickHandler={clickPlay} />
+        <Button text ="HOW TO PLAY" onClickHandler={clickPlay} />
+        <Button text ="LEADERBOARD" onClickHandler={clickPlay} />
+        <Button text ="SETTINGS" onClickHandler={clickPlay} />
+        <Button text ="ABOUT" onClickHandler={clickPlay} />
     </div>
     );
 }

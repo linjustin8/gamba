@@ -1,7 +1,8 @@
-button {
+.button {
     display: flex;
     padding: 25px 40px;
     width: 100%;
     cursor: pointer;
-
+    font-size: 30px;
+    margin: 5px;
 }
