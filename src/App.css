@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+
+.btn_container {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}

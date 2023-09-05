@@ -1,0 +1,7 @@
+button {
+    display: flex;
+    padding: 25px 40px;
+    width: 100%;
+    cursor: pointer;
+
+}
