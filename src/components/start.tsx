@@ -4,7 +4,7 @@ import React from 'react';
 import {Button} from './StartButtons';
 
 
-function Start() {
+export const Start = ()  => {
     const clickPlay = () => {
         console.log("balls");
     }
@@ -19,6 +19,3 @@ function Start() {
         </div>
     );
 }
-
-
-export default Start;
