@@ -1,3 +1,5 @@
+/*StartButtons.css*/
+
 .button {
     display: flex;
     padding: 25px 40px;
@@ -6,8 +8,4 @@
     font-size: 30px;
     margin: 5px;
     justify-content: center;
-}
-
-button {
-    text-align: center;
 }
